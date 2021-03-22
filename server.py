@@ -4,7 +4,7 @@ load_dotenv()
 from sanic import Sanic
 from jinja2 import Environment, PackageLoader, select_autoescape
 from blueprints.Home import HomeBP
-#from blueprints.API import APIBP
+from blueprints.API import APIBP
 
 
 # -*- Sanic configg 4 fest deploiment -*-
@@ -27,7 +27,7 @@ app.J2env = J2env
 
 # -*- Blueprint Registration -*-
 app.blueprint(HomeBP)
-#app.blueprint(APIBP)
+app.blueprint(APIBP)
 
 
 # -*- DEBUG HEADERS -*-
