@@ -47,6 +47,16 @@ DeviceMapPG = ["2G", "3G", "3GS", "4", "4S", "5", "5S", "6", "6S", "7", "8", "X"
 
 # Jailbreak Tools
 JailbreakMap = [
+     {
+        "name": "unc0ver",
+        "url": "https://unc0ver.dev",
+        "minIOS": "14.0",
+        "maxIOS": "14.3",
+        "minProc": "6S",
+        "maxProc": "12 Pro Max",
+        "type": "Semi-Untethered",
+        "platforms": ['apple']
+    },
     {
         "name": "checkra1n",
         "url": "https://checkra.in",
