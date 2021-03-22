@@ -53,7 +53,7 @@ JailbreakMap = [
         "minIOS": "14.0",
         "maxIOS": "14.3",
         "minProc": "6S",
-        "maxProc": "12 Pro Max",
+        "maxProc": "12",
         "type": "Semi-Untethered",
         "platforms": ['apple']
     },

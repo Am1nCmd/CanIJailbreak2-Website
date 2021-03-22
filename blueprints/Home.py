@@ -44,7 +44,7 @@ async def format_ipad_name(name):
 @HomeBP.route('/')
 async def index(request):
     template = request.app.J2env.get_template('/pages/Index.jinja2')
-    _html = await template.render_async(title="Home | Can I Jailbreak2",
+    _html = await template.render_async(title="Home | All New Can I Jailbreak",
                                         tools14=_tools14,
                                         tools13=_tools13,
                                         tools12=_tools12,
@@ -65,7 +65,7 @@ async def guide_me(request):
         ident_device_full = request.form.get('devicePicker')
         ident_ios = request.form.get('deviceIOS')
         if ident_ios == None or ident_device_full == None:
-            _html = await template.render_async(title="Jailbreak Wizard | Can I Jailbreak2",
+            _html = await template.render_async(title="Jailbreak Wizard | All New Can I Jailbreak",
                                                 showFieldError=True)
         else:
             _found = False
@@ -79,26 +79,26 @@ async def guide_me(request):
                                      x.get('maxProc')))]
                 if len(map_supported) != 0:
                     _found = True
-                _html = await template.render_async(title="Jailbreak Wizard | Can I Jailbreak2",
+                _html = await template.render_async(title="Jailbreak Wizard | All New Can I Jailbreak",
                                                     showResult=_found,
                                                     iosV=ident_ios,
                                                     dev=ident_device_name,
                                                     jelbreks=map_supported)
             else:
-                _html = await template.render_async(title="Jailbreak Wizard | Can I Jailbreak2",
+                _html = await template.render_async(title="Jailbreak Wizard | All New Can I Jailbreak",
                                                     showResult=_found,
                                                     iosV=ident_ios,
                                                     dev=ident_device_name,
                                                     jelbreks=[])
     elif request.method == 'GET':
-        _html = await template.render_async(title="Jailbreak Wizard | Can I Jailbreak2")
+        _html = await template.render_async(title="Jailbreak Wizard | All New Can I Jailbreak")
     return html(_html)
 
 
 @HomeBP.route('/privacy-policy')
 async def privacy(request):
     template = request.app.J2env.get_template('/pages/Privacy.jinja2')
-    _html = await template.render_async(title="Privacy | Can I Jailbreak2")
+    _html = await template.render_async(title="Privacy | All New Can I Jailbreak")
     return html(_html)
 
 
@@ -108,5 +108,5 @@ async def site_exception(request, exception):
     if _target == 'v1':
         return json({"status": -1})
     template = request.app.J2env.get_template('/pages/NF.jinja2')
-    _html = await template.render_async(title="Holy Papaya! | Can I Jailbreak2")
+    _html = await template.render_async(title="Holy Papaya! | All New Can I Jailbreak")
     return html(_html)
