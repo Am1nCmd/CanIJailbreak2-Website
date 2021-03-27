@@ -48,6 +48,16 @@ DeviceMapPG = ["2G", "3G", "3GS", "4", "4S", "5", "5S", "6", "6S", "7", "8", "X"
 # Jailbreak Tools
 JailbreakMap = [
      {
+         "name": "checkra1n",
+         "url": "https://checkra.in",
+         "minIOS": "12.0",
+         "maxIOS": "14.4.2",
+         "minProc": "5S",
+         "maxProc": "X",
+         "type": "Semi-Tethered",
+         "platforms": ['apple', 'linux']
+     },
+     {
         "name": "unc0ver",
         "url": "https://unc0ver.dev",
         "minIOS": "14.0",
@@ -56,16 +66,6 @@ JailbreakMap = [
         "maxProc": "12",
         "type": "Semi-Untethered",
         "platforms": ['apple']
-    },
-    {
-        "name": "checkra1n",
-        "url": "https://checkra.in",
-        "minIOS": "12.0",
-        "maxIOS": "14.4.1",
-        "minProc": "5S",
-        "maxProc": "X",
-        "type": "Semi-Tethered",
-        "platforms": ['apple', 'linux']
     },
     {
         "name": "Odyssey",
@@ -91,7 +91,7 @@ JailbreakMap = [
         "name": "Chimera",
         "url": "https://chimera.coolstar.org",
         "minIOS": "12.0",
-        "maxIOS": "12.5.1",
+        "maxIOS": "12.5.2",
         "minProc": "5S",
         "maxProc": "XS",
         "type": "Semi-Untethered",
