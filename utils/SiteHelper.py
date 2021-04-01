@@ -68,6 +68,16 @@ JailbreakMap = [
         "platforms": ['apple']
     },
     {
+        "name": "Taurine",
+        "url": "https://taurine.app",
+        "minIOS": "14.0",
+        "maxIOS": "14.3",
+        "minProc": "6S",
+        "maxProc": "12",
+        "type": "Semi-Untethered",
+        "platforms": ['apple']
+    },
+    {
         "name": "Odyssey",
         "url": "https://theodyssey.dev",
         "minIOS": "13.0",
