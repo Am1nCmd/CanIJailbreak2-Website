@@ -23,20 +23,20 @@ MaxVersionMap = {
     "iPhone 2G": "3.1.3",
     "iPhone 3G": "4.2.1", "iPhone 3GS": "6.1.6",
     "iPhone 4": "7.1.2", "iPhone 4S": "9.3.6",
-    "iPhone 5": "10.3.4", "iPhone 5C": "10.3.3", "iPhone 5S": "12.5.1",
-    "iPhone 6": "12.5.1", "iPhone 6 Plus": "12.5.1",
-    "iPhone 6S": "14.4.1", "iPhone 6S Plus": "14.4.1",
-    "iPhone 7": "14.4.1", "iPhone 7 Plus": "14.4.1",
-    "iPhone 8": "14.4.1", "iPhone 8 Plus": "14.4.1", "iPhone X": "14.4.1",
-    "iPhone XS": "14.4.1", "iPhone XS Max": "14.4.1", "iPhone XR": "14.4.1",
-    "iPhone 11": "14.4.1", "iPhone 11 Pro": "14.4.1", "iPhone 11 Pro Max": "14.4.1",
-    "iPhone SE 1": "14.4.1", "iPhone SE 2": "14.4.1",
-    "iPhone 12": "14.4.1", "iPhone 12 Mini": "14.4.1", "iPhone 12 Pro": "14.4.1", "iPhone 12 Pro Max": "14.4.1",
-    "iPad 1": "5.1.1", "iPad 2": "9.3.6", "iPad 3": "9.3.6", "iPad 4": "10.3.4", "iPad 5": "14.4.1", "iPad 6": "14.4.1", "iPad 7": "14.4.1", "iPad 8": "14.4.1",
-    "iPad Air 1": "12.5.1", "iPad Air 2": "14.4.1", "iPad Air 3": "14.4.1", "iPad Air 4": "14.4.1",
-    "iPad Mini 1": "9.3.6", "iPad Mini 2": "12.5.1", "iPad Mini 3": "12.5.1", "iPad Mini 4": "14.4.1", "iPad Mini 5": "14.4.1",
-    "iPad Pro 12.9 1": "14.4.1", "iPad Pro 9.7": "14.4.1", "iPad Pro 12.9 2": "14.4.1", "iPad Pro 10.5": "14.4.1", "iPad Pro 11 1": "14.4.1", "iPad Pro 12.9 3": "14.4.1", "iPad Pro 11 2": "14.4.1", "iPad Pro 12.9 4": "14.4.1",
-    "iPod Touch 1": "3.1.3", "iPod Touch 2": "4.2.1", "iPod Touch 3": "5.1.1", "iPod Touch 4": "6.1.6", "iPod Touch 5": "9.3.5", "iPod Touch 6": "12.5.1", "iPod Touch 7": "14.4.1"
+    "iPhone 5": "10.3.4", "iPhone 5C": "10.3.3", "iPhone 5S": "12.5.2",
+    "iPhone 6": "12.5.2", "iPhone 6 Plus": "12.5.2",
+    "iPhone 6S": "14.4.2", "iPhone 6S Plus": "14.4.2",
+    "iPhone 7": "14.4.2", "iPhone 7 Plus": "14.4.2",
+    "iPhone 8": "14.4.2", "iPhone 8 Plus": "14.4.2", "iPhone X": "14.4.2",
+    "iPhone XS": "14.4.2", "iPhone XS Max": "14.4.2", "iPhone XR": "14.4.2",
+    "iPhone 11": "14.4.2", "iPhone 11 Pro": "14.4.2", "iPhone 11 Pro Max": "14.4.2",
+    "iPhone SE 1": "14.4.2", "iPhone SE 2": "14.4.2",
+    "iPhone 12": "14.4.2", "iPhone 12 Mini": "14.4.2", "iPhone 12 Pro": "14.4.2", "iPhone 12 Pro Max": "14.4.2",
+    "iPad 1": "5.1.1", "iPad 2": "9.3.6", "iPad 3": "9.3.6", "iPad 4": "10.3.4", "iPad 5": "14.4.2", "iPad 6": "14.4.2", "iPad 7": "14.4.2", "iPad 8": "14.4.2",
+    "iPad Air 1": "12.5.2", "iPad Air 2": "14.4.2", "iPad Air 3": "14.4.2", "iPad Air 4": "14.4.2",
+    "iPad Mini 1": "9.3.6", "iPad Mini 2": "12.5.2", "iPad Mini 3": "12.5.2", "iPad Mini 4": "14.4.2", "iPad Mini 5": "14.4.2",
+    "iPad Pro 12.9 1": "14.4.2", "iPad Pro 9.7": "14.4.2", "iPad Pro 12.9 2": "14.4.2", "iPad Pro 10.5": "14.4.2", "iPad Pro 11 1": "14.4.2", "iPad Pro 12.9 3": "14.4.2", "iPad Pro 11 2": "14.4.2", "iPad Pro 12.9 4": "14.4.2",
+    "iPod Touch 1": "3.1.3", "iPod Touch 2": "4.2.1", "iPod Touch 3": "5.1.1", "iPod Touch 4": "6.1.6", "iPod Touch 5": "9.3.5", "iPod Touch 6": "12.5.2", "iPod Touch 7": "14.4.2"
 }
 
 # Unified Mapped (NAMED) List
@@ -47,17 +47,17 @@ DeviceMapPG = ["2G", "3G", "3GS", "4", "4S", "5", "5S", "6", "6S", "7", "8", "X"
 
 # Jailbreak Tools
 JailbreakMap = [
-     {
-         "name": "checkra1n",
-         "url": "https://checkra.in",
-         "minIOS": "12.0",
-         "maxIOS": "14.4.2",
-         "minProc": "5S",
-         "maxProc": "X",
-         "type": "Semi-Tethered",
-         "platforms": ['apple', 'linux']
-     },
-     {
+	{
+        "name": "checkra1n",
+        "url": "https://checkra.in",
+        "minIOS": "12.0",
+        "maxIOS": "14.4.2",
+        "minProc": "5S",
+        "maxProc": "X",
+        "type": "Semi-Tethered",
+        "platforms": ['apple', 'linux']
+    },     
+	{
         "name": "unc0ver",
         "url": "https://unc0ver.dev",
         "minIOS": "14.0",
@@ -67,7 +67,7 @@ JailbreakMap = [
         "type": "Semi-Untethered",
         "platforms": ['apple']
     },
-    {
+	{
         "name": "Taurine",
         "url": "https://taurine.app",
         "minIOS": "14.0",
@@ -101,7 +101,7 @@ JailbreakMap = [
         "name": "Chimera",
         "url": "https://chimera.coolstar.org",
         "minIOS": "12.0",
-        "maxIOS": "12.5.2",
+        "maxIOS": "12.5.1",
         "minProc": "5S",
         "maxProc": "XS",
         "type": "Semi-Untethered",
